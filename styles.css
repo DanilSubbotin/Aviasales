@@ -1,0 +1,200 @@
+body{
+	margin: 0;
+}
+.container {
+	width: 100%
+}
+.image{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+.section{
+	background: green;
+    height: 930px;
+    width: 100%;
+   
+}
+.text{
+	display: flex;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.header_title{
+	height: 600px;
+	width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column; 
+   background: #0c73fe;
+   font-family: Inter;
+   font-weight: 900;
+   
+
+}
+.title{
+	display: flex;
+	align-items: flex-start;
+	background: #0c73fe;
+	padding: 20px 0px 0px 20px;
+}
+h1{
+	font-size: 42px;
+	color: white;
+	margin: 100px 0 10px 0;	
+}
+h2{
+	font-size: 20px;
+	color: white;
+	margin: 0 0 8px;	
+}
+.selection{
+	background: #0d69e6;
+	width: 540px;
+	height: 54px;
+	border-radius: 14px;
+	list-style-type: none;
+	padding: 4px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+.photo{
+	margin-bottom: 6px;
+	filter: invert(85%);
+}
+button.air_tickets{
+	background: #0d69e6;
+    width: 108px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 12px;
+    margin: 0 3px 0 0;
+    border: none;  
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    color: #bcd5f8;
+}
+button.hotels{
+	background: #0d69e6;
+    width: 108px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 12px;
+    margin: 0 3px 0 0;
+    border: none;  
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    color: #bcd5f8;
+}
+button.short{
+	background: #0d69e6;
+    width: 108px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 12px;
+    margin: 0 3px 0 0;
+    border: none;  
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    color: #bcd5f8;
+} 
+button.subscriptions{
+	background: #0d69e6;
+    width: 108px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 12px;
+    margin: 0 3px 0 0;
+    border: none;  
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    color: #bcd5f8;
+}
+button.profile{
+	background: #0d69e6;
+    width: 108px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 12px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    color: #bcd5f8;
+}
+button:hover {
+  background: #0C7AFF;
+  transition: background 0s;
+}
+button:focus {
+background: white;
+color: black;
+.photo{
+	filter: invert(0%);
+ }
+}
+.ticketing{
+	margin-top: 30px;
+}
+input.wherefrom {
+padding: 9px 50px 9px 15px;
+width: 130px;
+height: 40px;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+border: none;
+}
+input.where {
+padding: 9px 50px 9px 15px;
+width: 130px;
+height: 40px;
+border: none;
+}
+input.when {
+padding: 9px 50px 9px 15px;
+width: 130px;
+height: 40px;
+border: none;
+}
+input.back {
+padding: 9px 50px 9px 15px;
+width: 130px;
+height: 40px;
+border: none;
+}
+
